@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LeafScan — Plant Disease Detector</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="page-wrap">
+
+<header class="header">
+
+<div class="logo">
+<span class="logo__leaf">🌿</span>
+<span class="logo__text">LeafScan</span>
+</div>
+
+<p class="header__tagline">
+MobileNetV2 · 38 Disease Classes · PlantVillage
+</p>
+
+</header>
+
+
+<main class="main">
+
+
+<section class="upload-card">
+
+<div class="upload-zone" id="uploadZone">
+
+<input type="file" id="fileInput" accept="image/*" hidden>
+
+<!-- Idle Upload -->
+
+<div class="upload-zone__idle" id="idleState">
+
+<p>Drop a leaf photo here</p>
+
+<p>
+or 
+<button class="link-btn"
+onclick="document.getElementById('fileInput').click()">
+browse your files
+</button>
+</p>
+
+</div>
+
+
+<!-- Preview -->
+
+<div class="upload-zone__preview hidden" id="previewState">
+
+<img id="previewImg" src="" alt="Leaf preview">
+
+<button class="change-btn" onclick="resetAll()">
+✕ Change image
+</button>
+
+</div>
+
+</div>
+
+
+<button class="analyze-btn" id="analyzeBtn" disabled>
+
+<span class="analyze-btn__text">
+Analyze Leaf
+</span>
+
+</button>
+
+
+</section>
+
+
+
+<section class="results-panel hidden" id="resultsPanel">
+
+
+<div class="status-badge" id="statusBadge">
+<span id="statusText">—</span>
+</div>
+
+
+<div class="prediction-block">
+
+<h2 id="predictionName">—</h2>
+
+<div class="confidence-bar">
+
+<div id="confidenceFill"></div>
+
+</div>
+
+<span id="confidencePct">—</span>
+
+</div>
+
+
+<ul id="breakdownList"></ul>
+
+
+<button class="reset-btn" onclick="resetAll()">
+Analyze Another Leaf
+</button>
+
+
+</section>
+
+
+
+<div class="error-panel hidden" id="errorPanel">
+
+<p id="errorMsg"></p>
+
+</div>
+
+
+</main>
+
+
+<footer class="footer">
+
+Powered by MobileNetV2 · PlantVillage Dataset
+
+</footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
