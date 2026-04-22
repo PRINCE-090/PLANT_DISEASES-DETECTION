@@ -1,0 +1,410 @@
+[
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-03-13 12:35:13"
+    },
+    {
+        "prediction": "Peach \u2014 Healthy",
+        "index": 17,
+        "confidence": 0.4615,
+        "is_healthy": true,
+        "top5": [
+            {
+                "label": "Peach \u2014 Healthy",
+                "confidence": 0.4615,
+                "is_healthy": true
+            },
+            {
+                "label": "Pepper Bell \u2014 Healthy",
+                "confidence": 0.4258,
+                "is_healthy": true
+            },
+            {
+                "label": "Blueberry \u2014 Healthy",
+                "confidence": 0.1018,
+                "is_healthy": true
+            },
+            {
+                "label": "Orange \u2014 Huanglongbing (Citrus Greening)",
+                "confidence": 0.0039,
+                "is_healthy": false
+            },
+            {
+                "label": "Potato \u2014 Healthy",
+                "confidence": 0.0035,
+                "is_healthy": true
+            }
+        ],
+        "timestamp": "2026-03-13 12:35:29"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-03-13 12:36:58"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-03-13 14:21:21"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 12:23:01"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 12:23:10"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 12:23:34"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 12:27:44"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 12:32:15"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 12:37:22"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 14:06:23"
+    },
+    {
+        "prediction": "Tomato \u2014 Early Blight",
+        "index": 29,
+        "confidence": 0.7945,
+        "is_healthy": false,
+        "top5": [
+            {
+                "label": "Tomato \u2014 Early Blight",
+                "confidence": 0.7945,
+                "is_healthy": false
+            },
+            {
+                "label": "Pepper Bell \u2014 Bacterial Spot",
+                "confidence": 0.183,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Septoria Leaf Spot",
+                "confidence": 0.0099,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Bacterial Spot",
+                "confidence": 0.0056,
+                "is_healthy": false
+            },
+            {
+                "label": "Tomato \u2014 Late Blight",
+                "confidence": 0.0033,
+                "is_healthy": false
+            }
+        ],
+        "timestamp": "2026-04-22 14:15:23"
+    }
+]
