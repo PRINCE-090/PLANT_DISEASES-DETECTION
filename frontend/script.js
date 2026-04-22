@@ -11,6 +11,7 @@ const idleState = document.getElementById("idleState");
 const previewState = document.getElementById("previewState");
 const previewImg = document.getElementById("previewImg");
 const analyzeBtn = document.getElementById("analyzeBtn");
+const browseBtn = document.getElementById("browseBtn");
 
 const resultsPanel = document.getElementById("resultsPanel");
 const statusBadge = document.getElementById("statusBadge");
@@ -26,6 +27,14 @@ const errorMsg = document.getElementById("errorMsg");
 // selected image
 let selectedFile = null;
 
+// ── Prevent browser from navigating on drop ────────────────
+["dragenter", "dragover", "dragleave", "drop"].forEach((eventName) => {
+  window.addEventListener(eventName, (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+  });
+});
+
 // ── File select ─────────────────────────────────────────────
 fileInput.addEventListener("change", (e) => {
   const file = e.target.files[0];
@@ -35,6 +44,12 @@ fileInput.addEventListener("change", (e) => {
 // ── Upload zone click ───────────────────────────────────────
 uploadZone.addEventListener("click", () => {
   if (!selectedFile) fileInput.click();
+});
+
+browseBtn.addEventListener("click", (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+  fileInput.click();
 });
 
 // ── Drag & Drop ─────────────────────────────────────────────
@@ -72,8 +87,12 @@ function handleFile(file) {
   hideError();
 }
 
-// ── Analyze Button Click (IMPORTANT FIX) ────────────────────
-analyzeBtn.addEventListener("click", analyze);
+// ── Analyze Button Click ───────────────────────────────────
+analyzeBtn.addEventListener("click", (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+  analyze();
+});
 
 // ── Send image to Flask ─────────────────────────────────────
 async function analyze() {

@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.root": "/frontend",
+  "liveServer.settings.ignoreFiles": [
+    "**/backend/**",
+    "**/model/**",
+    "**/prediction_logs.json"
+  ]
+}

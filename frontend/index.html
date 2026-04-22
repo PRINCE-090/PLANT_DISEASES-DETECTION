@@ -48,8 +48,7 @@ MobileNetV2 · 38 Disease Classes · PlantVillage
 
 <p>
 or 
-<button class="link-btn"
-onclick="document.getElementById('fileInput').click()">
+<button class="link-btn" id="browseBtn" type="button">
 browse your files
 </button>
 </p>
@@ -63,7 +62,7 @@ browse your files
 
 <img id="previewImg" src="" alt="Leaf preview">
 
-<button class="change-btn" onclick="resetAll()">
+<button class="change-btn" type="button" onclick="resetAll()">
 ✕ Change image
 </button>
 
@@ -72,7 +71,7 @@ browse your files
 </div>
 
 
-<button class="analyze-btn" id="analyzeBtn" disabled>
+<button class="analyze-btn" id="analyzeBtn" type="button" disabled>
 
 <span class="analyze-btn__text">
 Analyze Leaf
@@ -111,7 +110,7 @@ Analyze Leaf
 <ul id="breakdownList"></ul>
 
 
-<button class="reset-btn" onclick="resetAll()">
+<button class="reset-btn" type="button" onclick="resetAll()">
 Analyze Another Leaf
 </button>
 
